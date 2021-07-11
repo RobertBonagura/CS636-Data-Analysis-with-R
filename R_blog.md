@@ -1,0 +1,94 @@
+# Data Analytics with R
+
+This document is going to outline how to use R in data analysis. The following is based off of a class I took at New Jerseuy Institute of Technology CsS 636: Data Analytics with R.
+
+## What is R?
+
+R is an interpreted computer language and has has many built-in statistical functions.
+
+Throughout this document we will overview how to use R to import, clean, and modify data used in data analysis.
+
+## Installing R
+
+My prefered way for using R is to interact with it via command line and a jupyter notebook.
+
+With conda `https://conda.io/projects/conda/en/latest/user-guide/install/index.html` You cam create a an r environement like this
+
+```
+conda create -n r-environment r-essentials r-base
+conda activate r-environment
+```
+
+And now R can be run from the command line
+
+```
+R
+
+fdsa
+```
+
+More often than not you are not going to want ot just just R in you Command Line. A common way to use R is a in a jupyter notebook. I prefer using a classic jupyter notebook.
+
+Install with either pip or conda
+
+```
+conda install -c conda-forge notebook
+
+```
+
+OR
+
+```
+pip install notebook
+```
+
+The by calling `jupyter notebook` you can begin writing and executing your R code in a notebook. More info on using jupyter notebooks can be found here (link)
+
+## Reading data
+
+Lets say we want to view IBM's 2018 stock data. We can load data into out R environment using `read.csv()`.
+
+Download IBM's 2018 data from here: https://finance.yahoo.com/quote/IBM/history?period1=1514782800&period2=1546232400&interval=1d&filter=history&frequency=1d
+And save it to your local machine. Then, provide the path to where you save this file as an argument to the function below
+
+```
+data <- read.csv("IBM.csv")
+```
+
+## Inspecting our data
+
+Lets call the `class()` function on our data so we can learn how to interact with it.
+
+`class(data)` should output the type 'data.frame'.
+
+A dataframe is basically a table or a 2-dimensional array structure that we can use to interact with our data. This aritcle is going to share some common approaches towards interacting with a dataframe in R.
+
+`nrow(data)` reveals that this dataframe as 251 rows. If we print this entire dataframe it is going to take up alot of our screen. Let's use `head()` to print just the first 5 rows.
+
+```
+head(data)
+```
+
+This allows us to see all of the columns in our table. This is a handy tool to quickly get an idea of what our data might be able to show us. We could also check out the last 5 records using `tail()`.
+
+## Forming our own dataframes
+
+Viewing the IBM stock data can provide us alot of good information, but it might be more interesting to take a look at some other stocks as well.
+
+Let's download 2018 stock data for 9 other companies. Then, we can select which columns we think are important and which columns are irrelevant, and create a new dataframe with all relevant information about our 10 stocks.
+
+Download stock data for MSFT, GOOG, AAPL, AMZN, FB, NFLX, TSLA, ORCL and SAP by replacing IBM's stock ticker in the above the link with these ticker values provided.
+
+Then load each dataframe
+
+```
+AAPL = read.csv("data/AAPL.csv")
+AMZN = read.csv("data/AMZN.csv")
+FB = read.csv("data/FB.csv")
+GOOG = read.csv("data/GOOG.csv")
+MSFT = read.csv("data/MSFT.csv")
+NFLX = read.csv("data/NFLX.csv")
+TSLA = read.csv("data/TSLA.csv")
+ORCL = read.csv("data/ORCL.csv")
+SAP = read.csv("data/SAP.csv")
+```

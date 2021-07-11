@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Jul 03 10:45:56 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-017a-6cd5-4cf4-000007e280e0 
+on database directory memory:/home/bright-augura/Desktop/R/Midterm/databaseName=metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27 
+Loaded from file:/home/bright-augura/spark/spark-3.0.2-bin-hadoop3.2/jars/derby-10.12.1.1.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.11+9-Ubuntu-0ubuntu2.18.04
+user.dir=/home/bright-augura/Desktop/R/Midterm
+os.name=Linux
+os.arch=amd64
+os.version=5.4.0-73-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

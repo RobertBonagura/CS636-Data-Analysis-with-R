@@ -1,0 +1,60 @@
+21/07/11 12:46:16 INFO Executor: Told to re-register on heartbeat
+21/07/11 12:46:16 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 38265, None) re-registering with master
+21/07/11 12:46:16 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:16 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:16 INFO BlockManager: Reporting 5 blocks to the master.
+21/07/11 12:46:16 INFO BlockManagerInfo: Updated rdd_528_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:16 INFO BlockManagerInfo: Updated rdd_77_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:16 INFO BlockManagerInfo: Updated rdd_674_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:16 INFO BlockManagerInfo: Updated rdd_561_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:16 INFO BlockManagerInfo: Updated rdd_44_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:24 INFO Executor: Told to re-register on heartbeat
+21/07/11 12:46:24 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 38265, None) re-registering with master
+21/07/11 12:46:24 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:24 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:24 INFO BlockManager: Reporting 5 blocks to the master.
+21/07/11 12:46:24 INFO BlockManagerInfo: Updated rdd_528_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:24 INFO BlockManagerInfo: Updated rdd_77_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:24 INFO BlockManagerInfo: Updated rdd_674_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:24 INFO BlockManagerInfo: Updated rdd_561_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:24 INFO BlockManagerInfo: Updated rdd_44_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:34 INFO Executor: Told to re-register on heartbeat
+21/07/11 12:46:34 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 38265, None) re-registering with master
+21/07/11 12:46:34 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:34 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:34 INFO BlockManager: Reporting 5 blocks to the master.
+21/07/11 12:46:34 INFO BlockManagerInfo: Updated rdd_528_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:34 INFO BlockManagerInfo: Updated rdd_77_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:34 INFO BlockManagerInfo: Updated rdd_674_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:34 INFO BlockManagerInfo: Updated rdd_561_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:34 INFO BlockManagerInfo: Updated rdd_44_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:44 INFO Executor: Told to re-register on heartbeat
+21/07/11 12:46:44 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 38265, None) re-registering with master
+21/07/11 12:46:44 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:44 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:44 INFO BlockManager: Reporting 5 blocks to the master.
+21/07/11 12:46:44 INFO BlockManagerInfo: Updated rdd_528_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:44 INFO BlockManagerInfo: Updated rdd_77_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:44 INFO BlockManagerInfo: Updated rdd_674_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:44 INFO BlockManagerInfo: Updated rdd_561_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:44 INFO BlockManagerInfo: Updated rdd_44_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:54 INFO Executor: Told to re-register on heartbeat
+21/07/11 12:46:54 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 38265, None) re-registering with master
+21/07/11 12:46:54 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:54 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:46:54 INFO BlockManager: Reporting 5 blocks to the master.
+21/07/11 12:46:54 INFO BlockManagerInfo: Updated rdd_528_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:54 INFO BlockManagerInfo: Updated rdd_77_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:54 INFO BlockManagerInfo: Updated rdd_674_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:54 INFO BlockManagerInfo: Updated rdd_561_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:46:54 INFO BlockManagerInfo: Updated rdd_44_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:47:04 INFO Executor: Told to re-register on heartbeat
+21/07/11 12:47:04 INFO BlockManager: BlockManager BlockManagerId(driver, localhost, 38265, None) re-registering with master
+21/07/11 12:47:04 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:47:04 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, localhost, 38265, None)
+21/07/11 12:47:04 INFO BlockManager: Reporting 5 blocks to the master.
+21/07/11 12:47:04 INFO BlockManagerInfo: Updated rdd_528_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:47:04 INFO BlockManagerInfo: Updated rdd_77_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:47:04 INFO BlockManagerInfo: Updated rdd_674_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:47:04 INFO BlockManagerInfo: Updated rdd_561_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
+21/07/11 12:47:04 INFO BlockManagerInfo: Updated rdd_44_0 in memory on localhost:38265 (current size: 3.0 KiB, original size: 3.0 KiB, free: 1048.8 MiB)
