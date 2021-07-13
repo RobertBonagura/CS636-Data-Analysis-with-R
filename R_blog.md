@@ -92,3 +92,10 @@ TSLA = read.csv("data/TSLA.csv")
 ORCL = read.csv("data/ORCL.csv")
 SAP = read.csv("data/SAP.csv")
 ```
+Now we have 10 seperate references to each dataframe - lets combine them in order to make a single dataframe.
+
+### Thoughts to consider
+In order to form this new dataframe, we are going to need to consider 2 ideas:
+
+1. Removing unwatned columns
+2. Renaming columns so that each column is unique.
