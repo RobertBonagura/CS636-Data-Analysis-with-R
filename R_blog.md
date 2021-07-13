@@ -92,10 +92,66 @@ TSLA = read.csv("data/TSLA.csv")
 ORCL = read.csv("data/ORCL.csv")
 SAP = read.csv("data/SAP.csv")
 ```
+
 Now we have 10 seperate references to each dataframe - lets combine them in order to make a single dataframe.
 
 ### Thoughts to consider
+
 In order to form this new dataframe, we are going to need to consider 2 ideas:
 
-1. Removing unwatned columns
+1. Removing unwantned columns
 2. Renaming columns so that each column is unique.
+
+First, lets select only the columns we are interested in.
+
+```
+select(IBM, Date, Close, Adj.Close)
+```
+
+Next, we want to rename these columns. Because we ware going to eventually combine this dataframe with other stock data, we want to be able to differentiate it between Apple or Amazon's Close price for isntance.
+
+So, lets use the 'rename()' function to do this
+
+```
+rename(IBM, IBM_close = Close, IBM_adj.close = Adj.Close)
+```
+
+We can repreat this process for the 9 remaining stocks. LEt's do this by combining both the select and filter functions into a single line.
+
+```
+IBM = rename(select(IBM, Date, Close, Adj.Close), IBM_close = Close, IBM_adj.close = Adj.Close)
+AAPL = rename(select(AAPL, Date, Close, Adj.Close), AAPL_close = Close, AAPL_adj.close = Adj.Close)
+AMZN = rename(select(AMZN, Date, Close, Adj.Close), AMZN_close = Close, AMZN_adj.close = Adj.Close)
+FB = rename(select(FB, Date, Close, Adj.Close), FB_close = Close, FB_adj.close = Adj.Close)
+GOOG = rename(select(GOOG, Date, Close, Adj.Close), GOOG_close = Close, GOOG_adj.close = Adj.Close)
+MSFT = rename(select(MSFT, Date, Close, Adj.Close), MSFT_close = Close, MSFT_adj.close = Adj.Close)
+NFLX = rename(select(NFLX, Date, Close, Adj.Close), NFLX_close = Close, NFLX_adj.close = Adj.Close)
+TSLA = rename(select(TSLA, Date, Close, Adj.Close), TSLA_close = Close, TSLA_adj.close = Adj.Close)
+ORCL = rename(select(ORCL, Date, Close, Adj.Close), ORCL_close = Close, ORCL_adj.close = Adj.Close)
+SAP = rename(select(SAP, Date, Close, Adj.Close), SAP_close = Close, SAP_adj.close = Adj.Close)
+
+```
+
+Now if we call `head()` on this new dataframe, we can see the output as follows
+
+```
+head(IBM)
+```
+
+We will then combine each fo these dataframes together into one by performing an innter join on the 'Date' column, which each table shares.
+
+```
+df = inner_join(IBM, AAPL, by="Date")
+df = inner_join(df, AMZN, by="Date")
+df = inner_join(df, FB, by="Date")
+df = inner_join(df, GOOG, by="Date")
+df = inner_join(df, MSFT, by="Date")
+df = inner_join(df, NFLX, by="Date")
+df = inner_join(df, TSLA, by="Date")
+df = inner_join(df, ORCL, by="Date")
+df = inner_join(df, SAP, by="Date")
+```
+
+## Writing fucntions in R
+
+## Graphing our data
